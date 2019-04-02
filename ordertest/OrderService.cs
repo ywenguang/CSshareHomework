@@ -47,7 +47,7 @@ namespace ordertest {
     /// </summary>
     /// <param name="orderId">id of the order to find</param>
     /// <returns>List<Order></returns> 
-    public Order GetById(uint orderId) {
+   /* public Order GetById(uint orderId) {
       foreach (Order o in orderList) {
         if (o.Id == orderId) {
           return o;
@@ -55,6 +55,20 @@ namespace ordertest {
       }
       return null;
     }
+  */
+  public Order GetById(uint orderId)
+  {
+    var query =form order in orderList
+        where order.Id==orderId 
+        select ord;
+    if(query)
+      return query.ToList();
+    else
+      return null;
+  }
+
+
+
 
     /// <summary>
     /// remove order
@@ -74,7 +88,7 @@ namespace ordertest {
       return orderList;
     }
 
-   
+  /*  
     /// <summary>
     /// query by goodsName
     /// </summary>
@@ -92,7 +106,17 @@ namespace ordertest {
       }
       return result;
     }
-
+ */
+    public List<Order> QueryByGoodsName(string goodsName) {
+      
+      var order = from ord in orderList where ord.detail.Goods.Name== goodsName
+      select ord;
+      if (order)
+        return order.ToList();
+      else
+        return null;  
+  
+    }    
     /// <summary>
     /// query by customerName
     /// </summary>
@@ -104,10 +128,87 @@ namespace ordertest {
       return query.ToList();
     }
 
+
     public void SortedById(List<Order> order)
         {
             var sorted = order.OrderBy(o => o.Id);
         }
 
     }
+
+  /// <summary>
+        /// 序列化类到xml文档
+        /// </summary>
+        /// <typeparam name="T">类</typeparam>
+        /// <param name="obj">类的对象</param>
+        /// <param name="filePath">xml文档路径（包含文件名）</param>
+        /// <returns>成功：true，失败：false</returns>
+  
+  public bool Export<Order>(Order obj,string filePath)
+  {
+      XmlWriter writer = null;    //声明一个xml编写器
+      XmlWriterSettings writerSetting = new XmlWriterSettings //声明编写器设置
+          {
+              Indent=true,//定义xml格式，自动创建新的行
+              Encoding= UTF8Encoding.UTF8,//编码格式
+          };
+
+      try
+      {
+          //创建一个保存数据到xml文档的流
+          writer = XmlWriter.Create(filePath, writerSetting);
+      }
+      catch (Exception ex)
+      {
+          _logServ.Error(string.Format("创建xml文档失败：{0}",ex.Message));
+          return false;
+      }
+
+      XmlSerializer xser = new XmlSerializer(typeof(T));  //实例化序列化对象
+
+      try
+      {
+          xser.Serialize(writer, obj);  //序列化对象到xml文档
+      }
+      catch (Exception ex)
+      {
+          _logServ.Error(string.Format("创建xml文档失败：{0}", ex.Message));
+          return false;
+      }
+      finally
+      {
+          writer.Close();
+      }
+      return true;
+  }
+
+/// <summary>
+        /// 从 XML 文档中反序列化为对象
+        /// </summary>
+        /// <param name="filePath">文档路径（包含文档名）</param>
+        /// <param name="type">对象的类型</param>
+        /// <returns>返回object类型</returns>
+        public static object Import(string filePath, Type type)
+        {
+            string xmlString = File.ReadAllText(filePath);
+ 
+            if (string.IsNullOrEmpty(xmlString))
+            {
+                return null;
+            }
+            using (MemoryStream stream = new MemoryStream(Encoding.UTF8.GetBytes(xmlString)))
+            {
+                XmlSerializer serializer = new XmlSerializer(type);
+                try
+                {
+                    return serializer.Deserialize(stream);
+                }
+                catch
+                {
+                    return null;
+                }
+            }
+ 
+        }
+
 }
