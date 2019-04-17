@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "drawtrees", "drawtrees\drawtrees.csproj", "{C68FBDE9-16D1-417B-BA1D-7F40B125A1FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C68FBDE9-16D1-417B-BA1D-7F40B125A1FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C68FBDE9-16D1-417B-BA1D-7F40B125A1FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C68FBDE9-16D1-417B-BA1D-7F40B125A1FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C68FBDE9-16D1-417B-BA1D-7F40B125A1FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58A919C4-2BAA-4E82-93AB-5C2D01F4121F}
+	EndGlobalSection
+EndGlobal

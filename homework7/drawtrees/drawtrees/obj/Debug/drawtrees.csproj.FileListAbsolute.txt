@@ -1,0 +1,10 @@
+E:\c#\drawtrees\drawtrees\obj\Debug\drawtrees.csprojAssemblyReference.cache
+E:\c#\drawtrees\drawtrees\obj\Debug\drawtrees.Form1.resources
+E:\c#\drawtrees\drawtrees\obj\Debug\drawtrees.Properties.Resources.resources
+E:\c#\drawtrees\drawtrees\obj\Debug\drawtrees.csproj.GenerateResource.cache
+E:\c#\drawtrees\drawtrees\obj\Debug\drawtrees.csproj.CoreCompileInputs.cache
+E:\c#\drawtrees\drawtrees\bin\Debug\drawtrees.exe.config
+E:\c#\drawtrees\drawtrees\bin\Debug\drawtrees.exe
+E:\c#\drawtrees\drawtrees\bin\Debug\drawtrees.pdb
+E:\c#\drawtrees\drawtrees\obj\Debug\drawtrees.exe
+E:\c#\drawtrees\drawtrees\obj\Debug\drawtrees.pdb
