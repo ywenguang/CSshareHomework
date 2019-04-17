@@ -1,0 +1,7 @@
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework6\ordertest\bin\Debug\ordertest.exe.config
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework6\ordertest\bin\Debug\ordertest.exe
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework6\ordertest\bin\Debug\ordertest.pdb
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework6\ordertest\obj\Debug\ordertest.csprojAssemblyReference.cache
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework6\ordertest\obj\Debug\ordertest.csproj.CoreCompileInputs.cache
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework6\ordertest\obj\Debug\ordertest.exe
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework6\ordertest\obj\Debug\ordertest.pdb
