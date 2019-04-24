@@ -1,0 +1,17 @@
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework6\WindowsFormsOrderTest\bin\Debug\WindowsFormsOrderTest.exe.config
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework6\WindowsFormsOrderTest\bin\Debug\WindowsFormsOrderTest.exe
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework6\WindowsFormsOrderTest\bin\Debug\WindowsFormsOrderTest.pdb
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework6\WindowsFormsOrderTest\bin\Debug\ordertest.exe
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework6\WindowsFormsOrderTest\bin\Debug\ordertest.pdb
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework6\WindowsFormsOrderTest\bin\Debug\ordertest.exe.config
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework6\WindowsFormsOrderTest\obj\Debug\WindowsFormsOrderTest.csprojAssemblyReference.cache
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework6\WindowsFormsOrderTest\obj\Debug\WindowsFormsOrderTest.Form1.resources
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework6\WindowsFormsOrderTest\obj\Debug\WindowsFormsOrderTest.Properties.Resources.resources
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework6\WindowsFormsOrderTest\obj\Debug\WindowsFormsOrderTest.csproj.GenerateResource.cache
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework6\WindowsFormsOrderTest\obj\Debug\WindowsFormsOrderTest.csproj.CoreCompileInputs.cache
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework6\WindowsFormsOrderTest\obj\Debug\WindowsFormsOrderTest.csproj.CopyComplete
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework6\WindowsFormsOrderTest\obj\Debug\WindowsFormsOrderTest.exe
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework6\WindowsFormsOrderTest\obj\Debug\WindowsFormsOrderTest.pdb
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework6\WindowsFormsOrderTest\obj\Debug\WindowsFormsOrderTest.orderadd.resources
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework6\WindowsFormsOrderTest\obj\Debug\WindowsFormsOrderTest.orderdelete.resources
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework6\WindowsFormsOrderTest\obj\Debug\WindowsFormsOrderTest.ordermodify.resources
