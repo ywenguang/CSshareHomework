@@ -1,0 +1,16 @@
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework8\ordertest\bin\Debug\ordertest.exe.config
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework8\ordertest\bin\Debug\ordertest.exe
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework8\ordertest\bin\Debug\ordertest.pdb
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework8\ordertest\obj\Debug\ordertest.csprojAssemblyReference.cache
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework8\ordertest\obj\Debug\ordertest.csproj.CoreCompileInputs.cache
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework8\ordertest\obj\Debug\ordertest.exe
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework8\ordertest\obj\Debug\ordertest.pdb
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework8\ordertest\bin\Debug\EntityFramework.dll
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework8\ordertest\bin\Debug\EntityFramework.SqlServer.dll
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework8\ordertest\bin\Debug\MySql.Data.dll
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework8\ordertest\bin\Debug\EntityFramework.xml
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework8\ordertest\bin\Debug\EntityFramework.SqlServer.xml
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework8\ordertest\bin\Debug\MySql.Data.xml
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework8\ordertest\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework8\ordertest\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+F:\Documents\Tencent Files\1974480535\FileRecv\Homework8\ordertest\obj\Debug\ordertest.csproj.CopyComplete
